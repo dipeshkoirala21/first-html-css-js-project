@@ -1,0 +1,319 @@
+body{
+	
+	/*font-family:"Comic Sans MS", cursive, sans-serif;*/
+	overflow-x:auto;
+	max-width: 100%;
+	
+}
+
+.SixtyWidth{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+}
+.FortyWidth{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	float:right;
+}
+
+header{
+	position: absolute;
+	left: 0;
+	right:0;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height:100%;
+	margin-left: 20px;	
+}
+
+.navbar{
+	overflow: hidden;
+	position: fixed;
+	background-color: #808080;
+	margin-top: none;
+	margin-bottom: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	min-height:70px;
+	top: 0;
+	width: 100%;
+}
+
+
+.nav{
+	float: right;
+	margin: 0 50px 0 20px;
+	list-style: none;
+}
+.nav>li{
+	float: left;
+	position: relative;
+	display: block;
+	padding-right: 20px;
+	position: middle;
+}
+.abc{
+	opacity: 0.2;
+}
+a{
+	text-decoration:none;
+
+}
+.nav>li>a{
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 17px;
+	line-height: 20px;
+	position: relative;
+	display: block;
+}
+.nav>li>a:hover{
+	font-size: 17.5px;
+}
+ 
+.PaddingTop100{
+	padding-top: 100px;
+}
+.PageTitle{
+	color: #fff;
+	margin-left: 20px;
+}
+.mgtop20{
+	margin-top: 20px;
+}
+/*Footer*/
+footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+/*------------------- Home Page ---------------------*/
+.Container{
+	width: 50%;
+	background-color: rgba(156, 170, 187, 0.56);
+	margin-top: 140px;
+	margin-left: 60px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	border-radius: 4px;
+
+}
+.btn1{
+	border-radius: 4px;
+	margin: 0;
+	border:2px solid transparent;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	padding: 10px 10px;
+	font-size: 18px;
+	line-height: 1.33px;
+	min-height: 20px;
+	font-weight: 10px;
+}
+/*------------------- Contact Page ---------------------*/
+#ContactPage{
+	background: url("../IMAGES/everest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.InnerContent{
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border-radius: 4px
+}
+.InputFifty{
+	width:50%;
+	float: left;
+	padding-bottom: 20px;
+}
+.InputFull{
+	width: 100%;
+	padding-bottom: 20px;
+
+}
+
+.InputField{
+	font-size: 14px;
+	letter-spacing: 1px;	  	
+	box-shadow: none;
+	height: 50px;
+	width: 60%;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;	
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+.textContent {
+	width:60%;
+	margin:auto;
+	padding:10px;
+	padding-left:40px;
+	color:#fff;
+	background-color:rgba(195, 203, 213, 0.45);
+	border: 1px solid #ccc;	
+	border-radius: 4px
+	
+}
+textarea{
+	font-size: 14px;
+	letter-spacing: 1px;	  	
+	box-shadow: none;
+	width: 80%;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;	
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+.SubmitBtn{
+	border-radius: 4px;
+	margin: 0;
+	border: 1px solid transparent;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33px;
+	min-height: 40px;
+	font-weight: 400;
+}
+.ResetBtn{
+	border-radius: 4px;
+	margin: 0;
+	border: 1px solid transparent;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33px;
+	min-height: 40px;
+	font-weight: 400;
+}
+
+
+/*------------------- About Page ---------------------*/
+#AboutPage{
+	background: url("../IMAGES/everest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.Container1{
+	width: 45%;
+	background-color: rgba(156, 170, 187, 0.56);
+	margin-top: 50px;
+	margin-left: 620px;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+
+.fourty{
+	display: inline-block;
+	float: left;
+	width: 40%;
+}
+.twenty{
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+.copyright{
+    margin: 0 15px 10px; 0;
+    float: right;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    width: 80%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.trainer{
+	 border-radius: 5px 5px 0 0;
+}
+
+.teamContainer {
+	width:100%;
+	background-color:#D3D3D3;
+	text-align:center;
+	margin:auto;
+	padding:10px;
+	color: white;
+	border-radius: 4px;
+
+}
+/*---------Pricing--------*/
+#PricingPage{
+background: url("../IMAGES/image.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.table{
+	color:#fff; 
+	margin-left: 30px;
+	margin-right:30px;
+	padding-top: 60px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+
+
+
+/*------------Gallery-----------*/
+#GalleryPage{
+	
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Gstyle{
+	padding-top: 150px;
+	margin-left: 37px;
+	margin-right: 37px;
+}
+
+
+/*---------Details-------*/
+
+.details{
+	padding-top: 20px;
+}
+.news{
+	padding-top: 60px;
+
+}
+.FullWidth1{
+	width: 100%;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #fff;
+	background-color: #808080;
+	float:left;
+}
